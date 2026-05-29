@@ -68,7 +68,7 @@ if st.button("Post Message to Timeline"):
                 # ---------------------------------------------------
                 # Toxic Message Interception (Score > 0.70)
                 # ---------------------------------------------------
-                if score > 0.70:
+                if score > 0.40:
                     st.error("CRITICAL INTERCEPTION ALERT: POST BLOCKED")
                     st.markdown(
                         f"""
